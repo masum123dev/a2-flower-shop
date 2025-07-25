@@ -61,13 +61,13 @@ img {
 .our-plant {
   justify-content: center;
   text-align: center;
-  line-height: 15px;
 }
 .plant-card {
   width: 230px;
   height: 550px;
   margin: 0px;
   line-height: 3px;
+  row-gap: 5px;
 }
 .plant-card,
 .h5,
@@ -166,37 +166,47 @@ img {
 
 /* this is responsive section */
 /* Small Device Responsiveness */
+
 @media screen and (max-width: 576px) {
   .hide-on-small-device {
     display: none;
+  }
+  .navbar {
     justify-content: space-between;
+    margin-left: auto;
   }
   .banner-section {
     display: flex;
     flex-direction: column-reverse;
+    margin-left: auto;
   }
 
   .banner-image {
     min-height: 180px;
     min-width: 270px;
+    margin-left: auto;
   }
   .our-plant-section {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
   }
   .card-rows {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-left: auto;
   }
   .plants-lover-section {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
   }
 
   /* latest deal secion */
   .latest-deal-section {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
   }
   .deal-image {
     display: flex;
@@ -204,13 +214,16 @@ img {
     height: 200px;
     width: 350px;
     border-radius: 10px;
+    margin-left: auto;
   }
   .footer-section {
     display: flex;
     flex-direction: column;
     margin-top: 630px;
+    margin-left: auto;
   }
   .social-link {
     display: flex;
+    margin-left: auto;
   }
 }
